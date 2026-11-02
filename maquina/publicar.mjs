@@ -11,7 +11,7 @@ import {fileURLToPath} from 'node:url';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
-const SKILL = path.join(os.homedir(), '.omp/agent/skills/teardown');
+const SKILL = path.join(os.homedir(), '.agents/skills/teardown');
 const REPO = path.resolve(ROOT, '../dentro-de-claude');
 
 execFileSync('node', [path.join(SKILL, 'sims/build.mjs'), path.join(ROOT, 'claude-live')], {stdio: 'inherit', cwd: ROOT});

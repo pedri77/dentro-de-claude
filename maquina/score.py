@@ -10,7 +10,7 @@ salen de la sesión real, nunca de tiempos tecleados:
 Los segundos de la traza pasan a segundos de película con claude-film/warp.json (el mismo que usa
 film.js). Uso, desde ~/Dev/Claude_proyectos/Claude/teardown:
 
-    python3 ~/.omp/agent/skills/teardown/run_sfx.py claude-shared/score.py
+    python3 ~/.agents/skills/teardown/run_sfx.py claude-shared/score.py
 """
 
 import json

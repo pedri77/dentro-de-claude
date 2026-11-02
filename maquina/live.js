@@ -3,9 +3,10 @@
 // y todo lo demás sale de estadoAt(). Vistas 1-5, A abre el depósito, ESPACIO pausa; órbita con arrastre
 // y zoom con la rueda. Sin tocar, la página se enseña sola con el guion de la película y un cursor;
 // cualquier gesto cede el control y 25 s de calma lo devuelven.
+import {createVertical} from 'teardown-kit/vertical.js';
 import {warmComposer} from 'teardown-kit/warm.js';
 import {createConsole, VIEW_NAMES} from './console.js';
-import {DURATION, VIEW_FN, abrirAt, filmAt, makeConsoleFrame, makeCursor, rotuloAt, scriptView, trazaAt} from './film.js';
+import {DURATION, ROTULOS, VIEW_FN, abrirAt, filmAt, makeConsoleFrame, makeCursor, rotuloAt, scriptView, trazaAt} from './film.js';
 import {DUR_TRAZA, clamp, estadoAt} from './sesion.js';
 import {createClaudeStage} from './stage.js';
 
@@ -18,7 +19,7 @@ const wrapDeg = (d) => ((((d + 180) % 360) + 360) % 360) - 180;
 
 const CSS = `
 html,body{background:#0f0f18;overflow:hidden}
-#app{position:absolute!important;inset:auto!important;left:0;top:0;width:${W}px;height:${H}px;transform-origin:0 0}
+#app{position:fixed!important;inset:auto!important;left:0;top:0;width:${W}px;height:${H}px;transform-origin:0 0}
 #gl{touch-action:none;cursor:grab}
 #gl.drag{cursor:grabbing}
 .vb{pointer-events:auto;cursor:pointer}
@@ -38,6 +39,8 @@ html,body{background:#0f0f18;overflow:hidden}
 .portada .f{font:500 11px/1.5 Inter,system-ui,sans-serif;color:#a4a7ba;margin-top:6px}
 .portada div{white-space:normal}
 @media (orientation:portrait) and (max-width:820px){.portada{display:block}}
+.vrot{position:fixed;left:0;right:0;bottom:0;padding:14px 20px 44px;background:linear-gradient(transparent,rgba(15,15,24,.92) 30%);color:#d6d9ea;font:500 14px/1.45 Inter,system-ui,sans-serif;z-index:50;pointer-events:none}
+.vrot b{display:block;font:400 21px/1.15 'DM Serif Display',Georgia,serif;color:#f1f1f1;margin-bottom:4px}
 `;
 
 // en vertical (móvil) la consola queda pequeña: lo esencial va en una portada legible
@@ -51,6 +54,7 @@ function portada(T) {
     <div class="s">${nf(T.leida)} tokens leídos de caché</div>
     <div class="f">Coste equivalente en API: ${T.coste.toLocaleString('es-ES', {maximumFractionDigits: 2})} $ · sin caché, ${T.sinCache.toLocaleString('es-ES', {maximumFractionDigits: 2})} $</div>`;
   document.body.appendChild(el);
+  return el;
 }
 
 export function runLive() {
@@ -66,7 +70,8 @@ export function runLive() {
   const st = createClaudeStage({canvas});
   const ui = createConsole(app);
   const tourCursorAt = makeCursor();
-  portada(estadoAt(DUR_TRAZA));
+  const portadaEl = portada(estadoAt(DUR_TRAZA));
+  const vert = createVertical({app, canvas, st, W, H, top: () => portadaEl.offsetHeight, pr: () => TIERS[tier].pr});
 
   const TIERS = [
     {samples: 8, shadow: 4096, blur: 20, radius: 7, ao: 16, pcf: false, bloom: true, pr: 2},
@@ -85,6 +90,10 @@ export function runLive() {
 
   let scale = 1;
   const fit = () => {
+    if (vert.place()) {
+      scale = 1;
+      return;
+    }
     const h = innerHeight - top;
     scale = Math.min(innerWidth / W, h / H);
     app.style.transform = `translate(${(innerWidth - W * scale) / 2}px, ${top + (h - H * scale) / 2}px) scale(${scale})`;
@@ -305,7 +314,11 @@ export function runLive() {
     cam.az += dAz * k;
     for (const key of ['tx', 'ty', 'tz', 'el', 'd', 'sx', 'sy']) cam[key] += (tgt[key] - cam[key]) * k;
     // el reloj visual (partículas, latidos) sigue corriendo aunque la traza esté en pausa
-    st.frame(est, T, cam, {abrir});
+    st.frame(est, T, vert.cam(cam), {abrir});
+    if (vert.on) {
+      const [a, b] = ROTULOS[rotulo.i] ?? ['', ''];
+      vert.caption(`<b>${a}</b>${b}`);
+    }
     frameConsole(T, {view, since, abrir, est, tt, cursor: {...cursor, drag: !!drag}, rotulo, paused: paused && !AP.on});
 
     if (tourChip.classList.contains('on') !== AP.on || !tourChip.firstChild) {
