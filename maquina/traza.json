@@ -1,0 +1,881 @@
+{
+ "fuente": "Sesión real de Claude Code anonimizada: solo tiempos, tokens y nombres de herramientas.",
+ "duracion_s": 252.28,
+ "llamadas": [
+  {
+   "t": 6.72,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 271552,
+    "cache_escrita": 131,
+    "cache_escrita_1h": 131,
+    "salida": 755
+   },
+   "fin": 10.06
+  },
+  {
+   "t": 17.77,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 271683,
+    "cache_escrita": 1322,
+    "cache_escrita_1h": 1322,
+    "salida": 833
+   },
+   "fin": 20.98
+  },
+  {
+   "t": 37.8,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 273005,
+    "cache_escrita": 943,
+    "cache_escrita_1h": 943,
+    "salida": 3963
+   },
+   "fin": 59.61
+  },
+  {
+   "t": 64.37,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 273948,
+    "cache_escrita": 6028,
+    "cache_escrita_1h": 6028,
+    "salida": 1059
+   },
+   "fin": 70.39
+  },
+  {
+   "t": 73.88,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 279976,
+    "cache_escrita": 1196,
+    "cache_escrita_1h": 1196,
+    "salida": 153
+   },
+   "fin": 74.29
+  },
+  {
+   "t": 77.69,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 281172,
+    "cache_escrita": 215,
+    "cache_escrita_1h": 215,
+    "salida": 46
+   },
+   "fin": 77.69
+  },
+  {
+   "t": 119.86,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 281433,
+    "cache_escrita": 910,
+    "cache_escrita_1h": 910,
+    "salida": 28
+   },
+   "fin": 119.86
+  },
+  {
+   "t": 139.79,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 282371,
+    "cache_escrita": 912,
+    "cache_escrita_1h": 912,
+    "salida": 24
+   },
+   "fin": 139.79
+  },
+  {
+   "t": 144.56,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 283307,
+    "cache_escrita": 930,
+    "cache_escrita_1h": 930,
+    "salida": 23
+   },
+   "fin": 144.56
+  },
+  {
+   "t": 153.01,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 284260,
+    "cache_escrita": 1024,
+    "cache_escrita_1h": 1024,
+    "salida": 120
+   },
+   "fin": 153.87
+  },
+  {
+   "t": 163.92,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 285404,
+    "cache_escrita": 906,
+    "cache_escrita_1h": 906,
+    "salida": 811
+   },
+   "fin": 171.57
+  },
+  {
+   "t": 176.2,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 286310,
+    "cache_escrita": 890,
+    "cache_escrita_1h": 890,
+    "salida": 620
+   },
+   "fin": 179.77
+  },
+  {
+   "t": 184.68,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 287200,
+    "cache_escrita": 2581,
+    "cache_escrita_1h": 2581,
+    "salida": 382
+   },
+   "fin": 187.42
+  },
+  {
+   "t": 191.99,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 289781,
+    "cache_escrita": 495,
+    "cache_escrita_1h": 495,
+    "salida": 226
+   },
+   "fin": 191.99
+  },
+  {
+   "t": 197.48,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 290276,
+    "cache_escrita": 531,
+    "cache_escrita_1h": 531,
+    "salida": 741
+   },
+   "fin": 202.34
+  },
+  {
+   "t": 209.22,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 290807,
+    "cache_escrita": 891,
+    "cache_escrita_1h": 891,
+    "salida": 444
+   },
+   "fin": 209.22
+  },
+  {
+   "t": 215.51,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 291698,
+    "cache_escrita": 521,
+    "cache_escrita_1h": 521,
+    "salida": 120
+   },
+   "fin": 215.51
+  },
+  {
+   "t": 218.85,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 292219,
+    "cache_escrita": 2463,
+    "cache_escrita_1h": 2463,
+    "salida": 1034
+   },
+   "fin": 226.09
+  },
+  {
+   "t": 243.66,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 294682,
+    "cache_escrita": 1208,
+    "cache_escrita_1h": 1208,
+    "salida": 410
+   },
+   "fin": 245.2
+  },
+  {
+   "t": 252.28,
+   "modelo": "claude-opus-5-5",
+   "uso": {
+    "entrada": 2,
+    "cache_leida": 295890,
+    "cache_escrita": 563,
+    "cache_escrita_1h": 563,
+    "salida": 559
+   },
+   "fin": 252.28
+  }
+ ],
+ "herramientas": [
+  {
+   "herr": "Bash",
+   "t": 10.06,
+   "fin": 10.99
+  },
+  {
+   "herr": "Bash",
+   "t": 20.98,
+   "fin": 28.14
+  },
+  {
+   "herr": "Agent",
+   "t": 37.8,
+   "fin": 38.49
+  },
+  {
+   "herr": "Agent",
+   "t": 43.11,
+   "fin": 43.71
+  },
+  {
+   "herr": "Agent",
+   "t": 48.42,
+   "fin": 49.12
+  },
+  {
+   "herr": "Agent",
+   "t": 54.17,
+   "fin": 54.68
+  },
+  {
+   "herr": "Agent",
+   "t": 59.61,
+   "fin": 60.2
+  },
+  {
+   "herr": "Bash",
+   "t": 70.39,
+   "fin": 71.42
+  },
+  {
+   "herr": "Bash",
+   "t": 74.29,
+   "fin": 75.71
+  },
+  {
+   "herr": "Bash",
+   "t": 171.57,
+   "fin": 172.26
+  },
+  {
+   "herr": "Bash",
+   "t": 179.77,
+   "fin": 180.46
+  },
+  {
+   "herr": "Bash",
+   "t": 187.42,
+   "fin": 188.01
+  },
+  {
+   "herr": "Bash",
+   "t": 191.99,
+   "fin": 192.61
+  },
+  {
+   "herr": "Bash",
+   "t": 202.34,
+   "fin": 203.99
+  },
+  {
+   "herr": "Bash",
+   "t": 209.22,
+   "fin": 212.82
+  },
+  {
+   "herr": "Read",
+   "t": 215.51,
+   "fin": 216.07
+  },
+  {
+   "herr": "Bash",
+   "t": 226.09,
+   "fin": 238.44
+  },
+  {
+   "herr": "Bash",
+   "t": 245.2,
+   "fin": 245.87
+  }
+ ],
+ "subagentes": [
+  {
+   "tipo": "general-purpose",
+   "lanzado": 37.8,
+   "acuse": 38.49,
+   "termina": 117.19,
+   "segundo_plano": true,
+   "llamadas": [
+    {
+     "t": 42.84,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 0,
+      "cache_escrita": 84402,
+      "cache_escrita_1h": 0,
+      "salida": 176
+     },
+     "fin": 42.84
+    },
+    {
+     "t": 46.69,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 84402,
+      "cache_escrita": 18569,
+      "cache_escrita_1h": 0,
+      "salida": 123
+     },
+     "fin": 46.69
+    },
+    {
+     "t": 50.32,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 102971,
+      "cache_escrita": 23544,
+      "cache_escrita_1h": 0,
+      "salida": 123
+     },
+     "fin": 50.32
+    },
+    {
+     "t": 63.66,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 126515,
+      "cache_escrita": 26874,
+      "cache_escrita_1h": 0,
+      "salida": 6637
+     },
+     "fin": 107.41
+    },
+    {
+     "t": 112.2,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 153389,
+      "cache_escrita": 6915,
+      "cache_escrita_1h": 0,
+      "salida": 319
+     },
+     "fin": 112.2
+    },
+    {
+     "t": 116.9,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 160304,
+      "cache_escrita": 436,
+      "cache_escrita_1h": 0,
+      "salida": 321
+     },
+     "fin": 116.9
+    }
+   ],
+   "herramientas": [
+    {
+     "herr": "Bash",
+     "t": 42.84,
+     "fin": 43.57
+    },
+    {
+     "herr": "Read",
+     "t": 46.69,
+     "fin": 47.62
+    },
+    {
+     "herr": "Read",
+     "t": 50.32,
+     "fin": 51.1
+    },
+    {
+     "herr": "Write",
+     "t": 86.48,
+     "fin": 87.0
+    },
+    {
+     "herr": "Write",
+     "t": 107.41,
+     "fin": 107.99
+    },
+    {
+     "herr": "Bash",
+     "t": 112.2,
+     "fin": 112.59
+    }
+   ]
+  },
+  {
+   "tipo": "general-purpose",
+   "lanzado": 43.11,
+   "acuse": 43.71,
+   "termina": 137.31,
+   "segundo_plano": true,
+   "llamadas": [
+    {
+     "t": 47.16,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 29626,
+      "cache_escrita": 54760,
+      "cache_escrita_1h": 0,
+      "salida": 176
+     },
+     "fin": 47.16
+    },
+    {
+     "t": 50.44,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 84386,
+      "cache_escrita": 18563,
+      "cache_escrita_1h": 0,
+      "salida": 123
+     },
+     "fin": 50.44
+    },
+    {
+     "t": 54.08,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 102949,
+      "cache_escrita": 26289,
+      "cache_escrita_1h": 0,
+      "salida": 123
+     },
+     "fin": 54.08
+    },
+    {
+     "t": 85.29,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 129238,
+      "cache_escrita": 26331,
+      "cache_escrita_1h": 0,
+      "salida": 8409
+     },
+     "fin": 126.43
+    },
+    {
+     "t": 129.92,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 155569,
+      "cache_escrita": 8687,
+      "cache_escrita_1h": 0,
+      "salida": 378
+     },
+     "fin": 132.36
+    },
+    {
+     "t": 137.01,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 164256,
+      "cache_escrita": 495,
+      "cache_escrita_1h": 0,
+      "salida": 326
+     },
+     "fin": 137.01
+    }
+   ],
+   "herramientas": [
+    {
+     "herr": "Bash",
+     "t": 47.16,
+     "fin": 47.91
+    },
+    {
+     "herr": "Read",
+     "t": 50.44,
+     "fin": 51.21
+    },
+    {
+     "herr": "Read",
+     "t": 54.08,
+     "fin": 54.97
+    },
+    {
+     "herr": "Write",
+     "t": 105.69,
+     "fin": 106.26
+    },
+    {
+     "herr": "Write",
+     "t": 126.43,
+     "fin": 127.02
+    },
+    {
+     "herr": "Bash",
+     "t": 132.36,
+     "fin": 132.76
+    }
+   ]
+  },
+  {
+   "tipo": "general-purpose",
+   "lanzado": 48.42,
+   "acuse": 49.12,
+   "termina": 157.43,
+   "segundo_plano": true,
+   "llamadas": [
+    {
+     "t": 54.05,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 29626,
+      "cache_escrita": 54760,
+      "cache_escrita_1h": 0,
+      "salida": 167
+     },
+     "fin": 54.05
+    },
+    {
+     "t": 57.65,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 84386,
+      "cache_escrita": 18496,
+      "cache_escrita_1h": 0,
+      "salida": 182
+     },
+     "fin": 58.32
+    },
+    {
+     "t": 64.54,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 102882,
+      "cache_escrita": 27685,
+      "cache_escrita_1h": 0,
+      "salida": 147
+     },
+     "fin": 64.54
+    },
+    {
+     "t": 92.64,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 130567,
+      "cache_escrita": 22857,
+      "cache_escrita_1h": 0,
+      "salida": 8894
+     },
+     "fin": 143.52
+    },
+    {
+     "t": 146.9,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 153424,
+      "cache_escrita": 9172,
+      "cache_escrita_1h": 0,
+      "salida": 655
+     },
+     "fin": 151.92
+    },
+    {
+     "t": 157.14,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 162596,
+      "cache_escrita": 920,
+      "cache_escrita_1h": 0,
+      "salida": 317
+     },
+     "fin": 157.14
+    }
+   ],
+   "herramientas": [
+    {
+     "herr": "Bash",
+     "t": 54.05,
+     "fin": 54.78
+    },
+    {
+     "herr": "Read",
+     "t": 58.32,
+     "fin": 59.04
+    },
+    {
+     "herr": "Read",
+     "t": 64.54,
+     "fin": 65.28
+    },
+    {
+     "herr": "Write",
+     "t": 118.99,
+     "fin": 119.51
+    },
+    {
+     "herr": "Write",
+     "t": 143.52,
+     "fin": 144.11
+    },
+    {
+     "herr": "Edit",
+     "t": 149.19,
+     "fin": 149.76
+    },
+    {
+     "herr": "Bash",
+     "t": 151.92,
+     "fin": 152.31
+    }
+   ]
+  },
+  {
+   "tipo": "general-purpose",
+   "lanzado": 54.17,
+   "acuse": 54.68,
+   "termina": 150.58,
+   "segundo_plano": true,
+   "llamadas": [
+    {
+     "t": 57.79,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 29626,
+      "cache_escrita": 54795,
+      "cache_escrita_1h": 0,
+      "salida": 243
+     },
+     "fin": 59.03
+    },
+    {
+     "t": 66.15,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 84421,
+      "cache_escrita": 65985,
+      "cache_escrita_1h": 0,
+      "salida": 236
+     },
+     "fin": 67.21
+    },
+    {
+     "t": 88.05,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 150406,
+      "cache_escrita": 4973,
+      "cache_escrita_1h": 0,
+      "salida": 7844
+     },
+     "fin": 134.83
+    },
+    {
+     "t": 137.66,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 155379,
+      "cache_escrita": 8122,
+      "cache_escrita_1h": 0,
+      "salida": 324
+     },
+     "fin": 139.61
+    },
+    {
+     "t": 142.84,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 163501,
+      "cache_escrita": 428,
+      "cache_escrita_1h": 0,
+      "salida": 304
+     },
+     "fin": 144.48
+    },
+    {
+     "t": 150.29,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 163929,
+      "cache_escrita": 514,
+      "cache_escrita_1h": 0,
+      "salida": 437
+     },
+     "fin": 150.29
+    }
+   ],
+   "herramientas": [
+    {
+     "herr": "Read",
+     "t": 57.79,
+     "fin": 58.58
+    },
+    {
+     "herr": "Read",
+     "t": 59.03,
+     "fin": 59.81
+    },
+    {
+     "herr": "Read",
+     "t": 67.21,
+     "fin": 67.88
+    },
+    {
+     "herr": "Write",
+     "t": 111.5,
+     "fin": 112.09
+    },
+    {
+     "herr": "Write",
+     "t": 134.83,
+     "fin": 135.34
+    },
+    {
+     "herr": "Bash",
+     "t": 139.61,
+     "fin": 140.25
+    },
+    {
+     "herr": "Bash",
+     "t": 144.48,
+     "fin": 144.87
+    }
+   ]
+  },
+  {
+   "tipo": "general-purpose",
+   "lanzado": 59.61,
+   "acuse": 60.2,
+   "termina": 141.95,
+   "segundo_plano": true,
+   "llamadas": [
+    {
+     "t": 64.85,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 29626,
+      "cache_escrita": 54779,
+      "cache_escrita_1h": 0,
+      "salida": 243
+     },
+     "fin": 65.94
+    },
+    {
+     "t": 70.59,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 84405,
+      "cache_escrita": 64807,
+      "cache_escrita_1h": 0,
+      "salida": 270
+     },
+     "fin": 71.78
+    },
+    {
+     "t": 88.77,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 149212,
+      "cache_escrita": 4812,
+      "cache_escrita_1h": 0,
+      "salida": 7187
+     },
+     "fin": 135.14
+    },
+    {
+     "t": 141.62,
+     "modelo": "claude-opus-5-5",
+     "uso": {
+      "entrada": 2,
+      "cache_leida": 154024,
+      "cache_escrita": 7446,
+      "cache_escrita_1h": 0,
+      "salida": 449
+     },
+     "fin": 141.63
+    }
+   ],
+   "herramientas": [
+    {
+     "herr": "Read",
+     "t": 64.85,
+     "fin": 65.61
+    },
+    {
+     "herr": "Read",
+     "t": 65.94,
+     "fin": 66.69
+    },
+    {
+     "herr": "Bash",
+     "t": 71.78,
+     "fin": 72.19
+    },
+    {
+     "herr": "Bash",
+     "t": 135.14,
+     "fin": 135.55
+    }
+   ]
+  }
+ ]
+}

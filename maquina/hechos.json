@@ -1,0 +1,15 @@
+{
+  "modelo": "claude-opus-5-5",
+  "ventana_tokens": 1000000,
+  "precio_usd_por_millon": {"entrada": 4.0, "salida": 20.0, "cache_lectura": 0.20, "cache_escritura_5m": 5.0, "cache_escritura_1h": 8.0},
+  "fuente_precios": "Documentación de la skill claude-api (modelos cacheados a 06-10-2026; caché: lectura 0,05× en Opus 5.5, escritura 1,25× a 5 min y 2× a 1 h)",
+  "arranque": {
+    "tokens_primera_llamada": 54624,
+    "ya_en_cache": 36337,
+    "sistema_tokens_aprox": 4400,
+    "herramientas_tokens_aprox": 33100,
+    "proyecto_y_mensaje_tokens_aprox": 17100,
+    "nota": "Medido en la primera llamada de otra sesión del mismo equipo (02-11-2026). Caracteres por token calibrados: 2,74."
+  },
+  "configuracion": {"razonamiento": "adaptativo", "esfuerzo": "medio", "cache_ttl": "1 h"}
+}
